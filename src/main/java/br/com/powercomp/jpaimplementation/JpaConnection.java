@@ -67,7 +67,7 @@ public class JpaConnection {
             em.getTransaction().commit();
 
 
-            //construindo query para obter todos os valotres da tabela People
+            //construindo query para obter todos os valores da tabela People
 
             Query query = em.createNativeQuery(sql, People.class);
 
